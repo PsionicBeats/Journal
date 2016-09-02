@@ -2,9 +2,30 @@ body {
 	background-color: #5FBCF8;
 }
 
-.container {
+img{
 	border: 5px outset #0000A0;
 	border-radius: 5px;
+	float: right;
+}
+
+.aside{
 	background-color: #9EC2D9;
+	width: 125px;
+	height: auto;
+	margin:5px;
+	border: 5px outset #0000A0;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+
+.article {
+	background-color: #9EC2D9;
+	width: 500px;
+	height: auto;
+	margin:5px auto;
+	border: 5px outset #0000A0;
+	border-radius: 5px;
+	padding: 20px;
 
 }
