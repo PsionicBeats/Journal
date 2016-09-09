@@ -5,14 +5,22 @@ body {
 img{
 	border: 5px outset #0000A0;
 	border-radius: 5px;
-	float: right;
+	
 }
+
+header {
+	float: top;
+}
+footer {
+	margin:5px auto;
+}
+
 
 .aside{
 	background-color: #9EC2D9;
-	width: 125px;
+	width: 130px;
 	height: auto;
-	margin:5px;
+	float: left;
 	border: 5px outset #0000A0;
 	border-radius: 5px;
 	padding: 10px;
@@ -23,9 +31,10 @@ img{
 	background-color: #9EC2D9;
 	width: 500px;
 	height: auto;
-	margin:5px auto;
+	margin:30px auto;
 	border: 5px outset #0000A0;
 	border-radius: 5px;
 	padding: 20px;
 
 }
+
