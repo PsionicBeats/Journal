@@ -1,27 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
 		<meta charset="utf-8">
 		<title>PsionicBeats</title> <!-- This shows up in the tab -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
 		<header>
-			<h1>Hello World</h1> <!-- Title -->
-			<img src="https://avatars0.githubusercontent.com/u/20864711?v=3&s=460">	
+			<h1>Aguinaldo, Alex</h1> <!-- Title -->
+			<h4>PsionicBeats My Journal</h4>
+			<img src="https://avatars3.githubusercontent.com/u/20864711?v=3&u=c0c9bfb01e3375316f1ccdb9e44452e7542d110b&s=140">	
 		</header>
-		<h1>Journal Entry 1</h1> <!-- Header of Sect 1 -->
-		<h2>August 15, 2016</h2> 
-		<div>
-			<h3>Why I Took This Class</h3>
-			<p>I took this class to expand my knowledge in coding and use it in the future. Not to mention that poking behind the internet's curtains is pretty great.</p>
-		</div>
-		<div>
-			<h3>What I Want to Get Out of This Class</h3>
-			<p>I, also, would like to code <b>all</b> the things. In this venture, I am already enjoying all of the work that is being put into this class. Specifically, I'd like to put a background on this blog someday as well as a navigation so that all of these journals are organized by month.</p>
-		</div>
-		<aside>
-			<h6>Hi! I'm an "aside"</h6>
-		</aside>
+		<div class="container"> <!-- div container -->
+		<div class="aside clearfix"> <!-- Aside -->
+				<h2>Navigation</h2>
+				<nav>
+					<ul>
+						<li>
+							<a href="#first">Entry 1</a>
+						</li>
+						<li>
+							<a href="#">HTML &amp; CSS</a>
+						</li>
+						<li>
+							<a href="#">JavaScript</a>
+						</li>
+					</ul>
+				</nav>
+			</div> <!-- Aside end -->
+			<div id="first" class="content"><!-- Entry 1 -->
+				<div class="article"> 
+					<h2>Journal Entry 1</h2> <!-- Title -->
+					<h4>August 15, 2016</h4> <!-- Date -->
+					<h3>Why I Took This Class</h3>
+					<p>I took this class to expand my knowledge in coding and use it in the future. Not to mention that poking behind the internet's curtains is pretty great.
+					</p>
+					<h3>What I Want to Get Out of This Class</h3>
+					<p>I, also, would like to code <span class="highlight">all</span> the things. In this venture, I am already enjoying all of the work that is being put into this class. Specifically, I'd like to put a background on this blog someday as well as a navigation so that all of these journals are organized by month.
+					</p>
+				</div>
+			</div><!-- Entry 1 End -->
+			<div id="second" class="content"><!-- Entry 2 -->
+				<div class="article"> 
+					<h2>Journal Entry 2</h2>
+					<h4>August 24, 2016</h4>
+					<h3>UX vs UI</h3>
+					<p>UX stands for User Experience and UI stands for User Interface. UX is about the user and their experience using the site itself as opposed to UI which deals with the over all outlook of the site and how it is fashioned. 
+					</p>
+				</div> 
+			</div><!-- Entry 2 End -->
+			<div id="third" class="content"><!--Entry 3 -->
+				<div class="article">
+					<h2>Journal Entry 3</h2>
+					<h4>September 9, 2016</h4>
+					<h3>CSS</h3>
+					<p>
+						Mr.Tan was not joking when he described CSS as black magic. Something mysteriously fixes another and I have no idea how. The fact being that it works, I could not be happier with the outcome. Clearly, I still have a lot to learn about CSS in terms of its inner workings. There are quite a few things that I would like to accomplish, like applying an image background for each article rather than having them separated by borders. While this process is incredibly frustrating, all will come in time. I look forward to finding my comfort zone with CSS. (Where ever that is...)
+					</p>
+				</div>
+			</div><!--Entry 3 End-->
+			<div id="fourth" class="content"><!--Entry 4 -->
+				<div class="article">
+					<h2>Journal Entry 3</h2>
+					<h4>October 3, 2016</h4>
+					<h3>DigimonGo</h3>
+					<p>
+						 To start, I dished out all the work for html so that the structure would be there. However, going through the CSS portion was not as simple. This was one of the hardest works to deconstruct style wise, considering I had to toy with elements that I had not been properly introduced to until I looked them up on Google.
+					</p>
+				</div>
+			</div><!--Entry 4 End-->
+				<div id="fifth" class="content"><!--Entry 5 -->
+				<div class="article">
+					<h2>Journal Entry 3</h2>
+					<h4>October 5, 2016</h4>
+					<h3>Responsive Web Design</h3>
+					<p>
+						 Responsive Web Design is a website responding to different media platforms based on different dimensions.
+					</p>
+				</div>
+			</div><!--Entry 5 End-->
+				<div id="sixth" class="content"><!--Entry 6 -->
+				<div class="article">
+					<h2>Journal Entry 3</h2>
+					<h4>October 7, 2016</h4>
+					<h3>Media Queries</h3>
+					<p>
+						 This was another difficult area for me in terms of finding the dimensions for height and width.  There are a quite a few easy cop outs, but the experience was worth the frustration.
+					</p>
+				</div>
+			</div><!--Entry 6 End-->
+			<div id="seventh" class="content"><!--Entry 7 -->
+				<div class="article">
+					<h2>Journal Entry 3</h2>
+					<h4>October 24, 2016</h4>
+					<h3>Basic Javascript</h3>
+					<p>
+						 While confusing, with a little more work, I'll be able to understand the different functions and how to properly use them with the console log.
+					</p>
+				</div>
+			</div><!--Entry 7 End-->
+			<div id="eighth" class="content"><!--Entry 8 -->
+				<div class="article">
+					<h2>Journal Entry 4</h2>
+					<h4>October 24, 2016</h4>
+					<h3>Verizon App Challenge Review</h3>
+					<p>
+						The problem my group tackled with BetterComm was the communication between the counselors and their students. BetterComm would give the high schoolers more access to help without the anxiety brought on being surrounded by a crowd or confrontation. The app would provide a functioning chat system accompanied by a calendar, notes concerning the next meeting as well as optional anonymity. Students, within school hours, would be able to contact their counselors from their devices without having to travel to the office to solve academic or personal issues. I would like to improve the video by including how the chat system works in a classroom environment where the counselor contacts a student concerning their progress in school. A challenge my team faced was executing the video due to certain individuals rushing the product instead of taking the time to develop it. In the future, to prevent this from happening again, I would start earlier, make a timeline so that we can receive feedback and make changes if necessary.
+					</p>
+				</div>
+			</div><!--Entry 8 End-->
+			<div id="nine" class="content"><!--Entry 9-->
+				<div class="article">
+					<h2>Journal Entry 5</h2>
+					<h4>December 19, 2016</h4>
+					<h3>End of 1st Semester</h3>
+					<p>
+						The second quarter was filled with lessons about Javascript and how to use it more efficiently with html and css. For instance,  we took notes on the use of Strings, Methods, and Arrays and applied them to an activity that would generate a fortune randomly in a similar manner to drawing any fortune cookie from a box and opening it. It wasn't until later, through tons of research, that I was able to understand different for methods and how to use them within a function. 
+
+						[It helped that, when pressing tab, the formula for the function was made available to me in Sublime Text. This was the same with a lot of things.]
+					</p>
+				</div>
+			</div><!--Entry 8 End-->
+		</div><!-- Container End -->
 		<footer> <!-- This shows up at the bottom of the page -->
 			<h2>Goodbye for now!</h2>
 		</footer>
