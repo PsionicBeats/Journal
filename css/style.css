@@ -6,6 +6,7 @@
 	clear: both;
 	height: 0;
 	}
+
 * html .clearfix             { zoom: 1; } /* IE6 */
 *:first-child+html .clearfix { zoom: 1; } /* IE7 */
 
@@ -14,12 +15,14 @@ body {
 }
 
 img{
-	float: right;
-	margin: 10px;
-	margin-right: 80px;
+	display: inline-block;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	border: 5px outset #0000A0;
 	border-radius: 5px;
-	
+	vertical-align: top;
 }
 
 header {
@@ -33,16 +36,17 @@ footer {
 
 .aside{
 	background-color: #9EC2D9;
-	width: 250px;
-	height: auto;
-	float: left;
+	width: 230px;
+	display: inline-block;
 	border: 5px outset #0000A0;
 	border-radius: 5px;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	padding: 10px;
-}
-
-.aside h2 {
 	text-align: center;
+	vertical-align: top;
 }
 
 .article {
