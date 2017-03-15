@@ -33,8 +33,8 @@ var simplifiedJson = [
 		"p": "UX stands for User Experience and UI stands for User Interface. UX is about the user and their experience using the site itself as opposed to UI which deals with the over all outlook of the site and how it is fashioned."
 		"img": undefined
 	},
-	{
-		"journalEntry": "3"
+	// {
+	// 	"journalEntry": "3"
 		
-	},
+	// },
 ];
